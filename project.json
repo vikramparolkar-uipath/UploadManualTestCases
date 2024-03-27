@@ -7,7 +7,8 @@
     "UiPath.Excel.Activities": "[2.22.3]",
     "UiPath.IntegrationService.Activities": "[1.4.0-beta.20240325.9]",
     "UiPath.System.Activities": "[23.10.5]",
-    "UiPath.UIAutomation.Activities": "[23.10.11]"
+    "UiPath.UIAutomation.Activities": "[23.10.11]",
+    "UiPath.Word.Activities": "[1.18.1]"
   },
   "webServices": [],
   "entitiesStores": [],
