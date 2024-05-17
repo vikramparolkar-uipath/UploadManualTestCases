@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1236,5309" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CD8005B80BE_ApiV2ProjectsPrefix_List.Bundle;assembly=CD8005B80BE_ApiV2Pro.7Kdpr3jJU5E1wVdN1UBfG24" xmlns:uiascb1="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CD8005B80BE_ApiV2Requirements_Create.Bundle;assembly=CD8005B80BE_ApiV2Req.n4Ut9OjBaJ1qOnGC4Ok5TP" xmlns:uiascb2="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CD8005B80BE_ApiV2Testcases_Create.Bundle;assembly=CD8005B80BE_ApiV2Tes.KVyUb3bn11G1l8pwB1C4Fh32" xmlns:uiascb3="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CD8005B80BE_ApiV2TestcasesId_Retrieve.Bundle;assembly=CD8005B80BE_ApiV2Tes.I8IB61sWaSE1ZFyjv1UcJJe3" xmlns:uiascb4="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CD8005B80BE_ApiV2Teststeps_Create.Bundle;assembly=CD8005B80BE_ApiV2Tes.tSyKG4FoYwH1DO7qcTqV2G2" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1236,6706" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CD8005B80BE_ApiV2ProjectsPrefix_List.Bundle;assembly=CD8005B80BE_ApiV2Pro.7Kdpr3jJU5E1wVdN1UBfG24" xmlns:uiascb1="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CD8005B80BE_ApiV2Requirements_Create.Bundle;assembly=CD8005B80BE_ApiV2Req.n4Ut9OjBaJ1qOnGC4Ok5TP" xmlns:uiascb2="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CD8005B80BE_ApiV2Testcases_Create.Bundle;assembly=CD8005B80BE_ApiV2Tes.KVyUb3bn11G1l8pwB1C4Fh32" xmlns:uiascb3="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CD8005B80BE_ApiV2TestcasesId_Retrieve.Bundle;assembly=CD8005B80BE_ApiV2Tes.I8IB61sWaSE1ZFyjv1UcJJe3" xmlns:uiascb4="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CD8005B80BE_ApiV2Teststeps_Create.Bundle;assembly=CD8005B80BE_ApiV2Tes.tSyKG4FoYwH1DO7qcTqV2G2" xmlns:uiascb5="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CE5384F07FA_ApiV2ProjectsPrefix_List.Bundle;assembly=CE5384F07FA_ApiV2Pro.tc0IBPUORG1T7T6uyREPE" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="70">
       <x:String>GlobalConstantsNamespace</x:String>
@@ -27,6 +27,7 @@
       <x:String>UiPath.Platform.Activities</x:String>
       <x:String>UiPath.Shared.Activities.Business</x:String>
       <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.CE5384F07FA_ApiV2ProjectsPrefix_List.Bundle</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -95,14 +96,15 @@
       <AssemblyReference>CD8005B80BE_ApiV2Tes.I8IB61sWaSE1ZFyjv1UcJJe3</AssemblyReference>
       <AssemblyReference>CD8005B80BE_ApiV2Tes.KVyUb3bn11G1l8pwB1C4Fh32</AssemblyReference>
       <AssemblyReference>CD8005B80BE_ApiV2Tes.tSyKG4FoYwH1DO7qcTqV2G2</AssemblyReference>
+      <AssemblyReference>CE5384F07FA_ApiV2Pro.tc0IBPUORG1T7T6uyREPE</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Upload Manual Test Case Steps" sap:VirtualizedContainerService.HintSize="1246,5244" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Upload Manual Test Case Steps" sap:VirtualizedContainerService.HintSize="1246,6641" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ProjectID" />
       <Variable x:TypeArguments="x:String" Name="TemplateFile" />
       <Variable x:TypeArguments="x:String" Name="ProjectPrefix" />
-      <Variable x:TypeArguments="uiascb:ApiV2ProjectsPrefix_List[]" Name="output_GetProject" />
+      <Variable x:TypeArguments="uiascb5:ApiV2ProjectsPrefix_List[]" Name="output_GetProject" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -117,25 +119,25 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:SelectFile>
-    <ueab:SequenceX DisplayName="Excel Container (Setting Excel Properties)" sap:VirtualizedContainerService.HintSize="1184,5091" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX DisplayName="Excel Container (Setting Excel Properties)" sap:VirtualizedContainerService.HintSize="1184,6488" sap2010:WorkflowViewState.IdRef="SequenceX_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File - Test Manager Template" sap:VirtualizedContainerService.HintSize="1122,4980" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" TemplatePath="TEMPLATE_Test Manager Import - Requirements + Test Cases.xlsx" UseTemplate="True" WorkbookPath="[TemplateFile]">
+      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File - Test Manager Template" sap:VirtualizedContainerService.HintSize="1122,6377" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" TemplatePath="TEMPLATE_Test Manager Import - Requirements + Test Cases.xlsx" UseTemplate="True" WorkbookPath="[TemplateFile]">
         <ueab:ExcelApplicationCard.Body>
           <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="TestManagerTemplate" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1088,4665" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1088,6062" sap2010:WorkflowViewState.IdRef="Sequence_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <TryCatch DisplayName="Try Catch - Get Project ID using Inputs from Excel" sap:VirtualizedContainerService.HintSize="1026,466" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+              <TryCatch DisplayName="Try Catch - Get Project ID using Inputs from Excel" sap:VirtualizedContainerService.HintSize="1026,650" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -143,13 +145,13 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <TryCatch.Try>
-                  <Sequence DisplayName="Get Project ID using Inputs from Excel" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence DisplayName="Get Project ID using Inputs from Excel" sap:VirtualizedContainerService.HintSize="496,382" sap2010:WorkflowViewState.IdRef="Sequence_3">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Assign DisplayName="Assign Project Prefix" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="Assign_1">
+                    <Assign DisplayName="Assign Project Prefix" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="Assign_1">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[ProjectPrefix]</OutArgument>
                       </Assign.To>
@@ -158,12 +160,12 @@
                       </Assign.Value>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </Assign>
-                    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACo2T227aQBCGX8XaazCGgJogcREbmpITVjj0oqqitT3gDWbt7s6SIsS7d+x1G1pAqnxjzWm/mflnzz4LyBId5BK5kKBYf8+mwFWc8igD62T9b98bbCwLg38Me/bMN8D6rFD5G8QYKliKn6zBhkIXGd9d8oKOlShQ5JK8sxScfyNmu6JM1KiEXNkMsaLg/aHBXuCHEQoS1kdloGHZH/OY1/VCjimlTGTA5ZZrG3Yg9onBs/D3Al9vC7HohJZCX2jjDtCpQ5zx8KSPD+y5KBncsURYqQprCmorYnBvYxRbgQK0O/06kmh/g+G15/X8a88fnQN5fRQaXd/IJKMKF/y0HOdcHffTQ1Koq7f7eW/Ufl8kz+25v7zrdBvOApQmtEHb9cqP0k2GRsFAgkHFs4YTmigT8QPsZvka5ECaLGN2/qCR9Zc802fmb8d8sgHSjqZJV9EflifS2wvoIpfa6uz3umjRY6mRyxhCrmgBSLilLmtseqgCp3dItpKmkSsiJXNsNOabphERl+smEuqGS76CDUhMTUQJ9RZ29boCQ0siPRFxVI61Xvd5SXxBLJ4A0zyximAEGvA4BRpBvjbFgmc0HatUa/dV/q5BjRE2tT3k8ZqAjjvpul4zAuRux+t0vatOz7057uw4tH1Tdf0frJMCrPwootTICf5oRqbqXvqste206jPU9FOWaO3/ussDBT9yuTLETgkgy3pc+wr4ms40SMlXtl7p4vALr4jhM1UEAAA=" ConnectionId="1d50c9e8-885e-457d-a0ec-abd8005b80be" DisplayName="Get Project ID" sap:VirtualizedContainerService.HintSize="354,48" sap2010:WorkflowViewState.IdRef="ConnectorActivity_2" UiPathActivityTypeId="d7eb0de5-2bb7-33fb-8333-836294a83741">
+                    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACo2T227aQBCGX8Xaa2MMATW1xEUwNCUhwQqHXlRVtLYHvMGs3d1ZEoR4945Zt6GFSJVvrDntNzP/7NkXAXmqw0IiFxIUC/ZsClwlGY9zsE4WfP/hspEsDf4x7Nkj3wALWKmKF0gwUrAUb8xlA6HLnO8+8oJOlChRFJK8swycfyNmu7JK1KiEXNkMsaLg/cFlT/DTCAUpC1AZcC37uEh4XS/imFHKRIZcbrm2YQdinxi8CH8n8PmmFIt2ZCn0B23cAjp1iDManPXxjj0XFYM3kggrdcSagtqKBLybBMVWoADtTb8NJdrfcHDt+93+td8fXgJ5HguNXt/INKcKH/hpOc6lOt6n+7RUVy938+6w9bpIH1vz/vK23XGdBShNaL2W51cfpZscjYKeBIOK564TmTgXyT3sZsUaZE+aPGd2/qCRBUue6wvzt2M+2wBpR9Okj9HvlgfS2xPospDa6uz3umjRI6mRywQirmgBSLiVLmtseugITu+QbCVNo1BESubEaCw2DSNiLtcNJNQNl3wFG5CYmZgS6i3s6nWFhpZEeiLiuBprve7LkviKWD4AZkVqFcEINORJBjSCYm3KBc9pOlap1t5XxasGNULY1PaIJ2sCOu2k4/mNGJB7bb/d8a/aXe/zaWenoeSruv4P1kkJVn4UUWnkDH84I9PxXgLW3Lab9Rlq+qlKNPd/3eWBgsdcrgyxUwLIqh7XfQV8TWcaZuSrWj/q4vALrkVXglUEAAA=" ConnectionId="1d50c9e8-885e-457d-a0ec-abd8005b80be" DisplayName="Get Project ID" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="ConnectorActivity_2" UiPathActivityTypeId="d7eb0de5-2bb7-33fb-8333-836294a83741">
                       <isactr:ConnectorActivity.FieldObjects>
                         <isactr:FieldObject Name="projectPrefix" Type="FieldArgument">
                           <isactr:FieldObject.Value>
@@ -178,7 +180,7 @@
                       </isactr:ConnectorActivity.FieldObjects>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
@@ -186,7 +188,7 @@
                   </Sequence>
                 </TryCatch.Try>
                 <TryCatch.Catches>
-                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="420,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="500,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -202,7 +204,7 @@
                   </Catch>
                 </TryCatch.Catches>
               </TryCatch>
-              <ueab:ExcelForEachRowX DisplayName="For Each Excel Row in 'Summary' Sheet - Requirements Loop" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="1026,4114" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_3" Range="[TestManagerTemplate.Sheet(&quot;Summary&quot;)]" SaveAfterEachRow="False">
+              <ueab:ExcelForEachRowX DisplayName="For Each Excel Row in 'Summary' Sheet - Requirements Loop" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="1026,5327" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_3" Range="[TestManagerTemplate.Sheet(&quot;Summary&quot;)]" SaveAfterEachRow="False">
                 <ueab:ExcelForEachRowX.Body>
                   <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
                     <ActivityAction.Argument1>
@@ -211,13 +213,13 @@
                     <ActivityAction.Argument2>
                       <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                     </ActivityAction.Argument2>
-                    <Sequence DisplayName="Upload Requirements" sap:VirtualizedContainerService.HintSize="992,3901" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                    <Sequence DisplayName="Upload Requirements" sap:VirtualizedContainerService.HintSize="992,5114" sap2010:WorkflowViewState.IdRef="Sequence_18">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <If Condition="[CurrentRow.ByField(&quot;Type&quot;) = string.Format(&quot;Requirement&quot;)]" DisplayName="Check if Row is a Requirement" sap:VirtualizedContainerService.HintSize="930,3816" sap2010:WorkflowViewState.IdRef="If_1">
+                      <If Condition="[CurrentRow.ByField(&quot;Type&quot;) = string.Format(&quot;Requirement&quot;)]" DisplayName="Check if Row is a Requirement" sap:VirtualizedContainerService.HintSize="930,5029" sap2010:WorkflowViewState.IdRef="If_1">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -225,7 +227,7 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <If.Then>
-                          <Sequence DisplayName="Row is Requirement - Upload Requirement" sap:VirtualizedContainerService.HintSize="896,3554" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <Sequence DisplayName="Row is Requirement - Upload Requirement" sap:VirtualizedContainerService.HintSize="896,4767" sap2010:WorkflowViewState.IdRef="Sequence_4">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="Requirement" />
                               <Variable x:TypeArguments="x:String" Name="Requirement_ID" />
@@ -283,7 +285,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:MultipleAssign>
-                            <If Condition="[CurrentRow.ByField(&quot;ID&quot;) = string.Format(&quot;NEW&quot;) AND CurrentRow.ByField(&quot;FLAG&quot;) &lt;&gt; string.Format(&quot;X&quot;)]" DisplayName="Check for NEW Requirement" sap:VirtualizedContainerService.HintSize="834,556" sap2010:WorkflowViewState.IdRef="If_2">
+                            <If Condition="[CurrentRow.ByField(&quot;ID&quot;) = string.Format(&quot;NEW&quot;) AND CurrentRow.ByField(&quot;FLAG&quot;) &lt;&gt; string.Format(&quot;X&quot;)]" DisplayName="Check for NEW Requirement" sap:VirtualizedContainerService.HintSize="834,867" sap2010:WorkflowViewState.IdRef="If_2">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -291,7 +293,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                               <If.Then>
-                                <Sequence DisplayName="Requirement is marked NEW" sap:VirtualizedContainerService.HintSize="416,328" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                <Sequence DisplayName="Requirement is marked NEW" sap:VirtualizedContainerService.HintSize="416,639" sap2010:WorkflowViewState.IdRef="Sequence_6">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -311,7 +313,7 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </Assign>
-                                  <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACtWWbW/aQAzHv0p0b9ZJNKWMSh1SX4x0benagQbtpE3TZBIDN5K79B46Rajffb4k0JTQrNP2ZiABOTvO72/7fKzYGcc40oEUBrhAxXorNkZQ4QKmMRZG1vv6rcUGIrVms7BiHyFB1mODiLXYKddpDFm5NFLyB4bGG5w6E+pQ8dRwKZ6YvD1pDUX0Zkom3qtzNN6j8ZUHoeH33GSvKcQkS11YbRQXc7oeS2WGKnKwhy32Ce8sVxixnlEWW4WgKxnC+pFgFnTTUAQg7kEXbg+tjYC0eGoB+2IdMYJGD4VB5ZkFbthhTmlsZu7kwfic4qzYlYSon53iDGxs1my/1dSXUdakSbivbTn517aQ8kkJKfFKhwb0Nw5Np1JoXKP9LWpUwdkmrqI2gT/1a+DvVlM/kppv2pInoDL2UNf3p3pCKQQ1glQVwB17JFi7eaoiZEenTai5Gpy3xV6DXtJ1ll1fR9HFRZJo/SWPmTfYLcTWubfL1/6Oj/WLVXL1b/JSTJjdyShsDQmoOvw3omdSIQX7hDNUKML6njwrHKiuFY+a/F1e2zmoYr8Mk2b6MB/B9aHO6zWq7rdnqlQO9GqP8sjbA+2BV3C+bJqjpkk4g1jjrnFTXAdWgXl+6hTCmkpzyc33dym/7VSE6SbVuqb5UcwNd6eMP6DjYE5cZB6juuch+u+Kc4yj9sef3wtT/AxOj9vto/5xu/++DvE9UEja/L4VUUwRnrG3vF1RfNG9MW+HP/pweXg3FOdBd7g8moxa3i0qTVwnh37bvelu2hpW4YlAaxTELW9kpzEPP2A2kUsUJ8LGMasX5IWZpv8LmlKce6/7jTpzILQBauARKEowHZ7kvmIlG0XL6SjYZuIRjhseVhuZ7Fs+BbHcN8STgIB5no+FndINZZ6zsiDr9iCsqTuXy3LuKviFMek1moUkTncmGHcKBBAukGTKpU3z+eE4N+t9JX9qmmQGk3J9BOGSeKpCun57f4oG/E67022/6Rz5b6vCqq6dTi76t6jDFIvucgrzJqjxD8cTWsv/8/TYwX3nYDWIHg4qW9LFuQIxt4RLLuhOzAvQfQq3pA0ZLMjm1OblfvgF+HvyOyAKAAA=" ConnectionId="1d50c9e8-885e-457d-a0ec-abd8005b80be" DisplayName="Create Requirement" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="ConnectorActivity_4" UiPathActivityTypeId="36d37e23-fad6-35c4-9c4c-bd0e47aef365">
+                                  <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACu2XXW/TPBTH75H4DlZuAKnLutJJgLQLmgErbLSiZUgghNzktDVN7OCXoWjad+fESVqna0MY8Dw3tFJT+Ry//H/n2D65vn+PEO8lgzhSgeCaMg7Se0au83a0TIDKcElnMRQ+aPr0uVMahzw1etNetJKqr3V5SxNAmzeMvI7TfMpUGtOsso6l+AqhJsPTuheoULJUM8HrXuShMBrnJnMpEvLgFWiyMT4gNNTsiunsUW20aZbayZSWjC9qpomQeiQjq/zINbyDb4ZJiLBdSwOuyeo+FyFdL4/qZW3UEQ8ov6Kq7FxZbjpNoNJCxzaJO/GKgSogwDVIopewZkQXGOa7sOltzcYW+USODGw+FzQaZKcwpybWW9Jd8b9IdyCi7Pfp8vzZANY+G5CWK06QKbnl2xLi4zoClQquYAeC/55O5IhtgOQyaclqX5eWyPot8m4sFNucFCyhMvP25t1e6H+JbCg4x50npAOl+UgMqh5EOhybN/wU93irfg3YL6ha5aYsu7iIorOzJFHq49akdmtf0tjYQbrl52DHT/Xxdgfw/49KceH9NBSFWzv8u33/Ibcs50ICBv8dzEECDxsP45eFLybyTufb8Js7NERgT0bePe2KP+tCaWSrlXaVEmvMRfdQ/Xk2llWSexKwiDykilBSYPgzJRKo/Kaf01hB68utMAVGUt3ujisg/v6uf830l+cpu+w5LFVL5qqJ+E6U71leF/pDLMIWKBVdJyCvWAj+86JKZaD8yYcXXBd/g9Mn3e7x4El38OL2Kr8EEhCXPzA8inGEPfYO2TWKz/vv9dPR1wF9ffRtxF8F/dHqeDrukEuQCtd1cuR38y/2xuPdSDjhYLSkcYeMzSxm4RvIpmIF/ISbOPZa5sAdwuiahgrDZcfYs8XyRxFvfB1RmuKuH1OJkcOiVzkvMqXIfAVWZ7WAzUWL8uylYJQWyYFhM8pXBxplJZTThQW8NLN1vzJ8WRXoKpPXe36W19pVDu1NOO9M6/QC9FLkCvMqRnuOpoCGS0B+YmVSe+NaTTXjQIrvCu8wDYlrHNNwhcuu6e773YMZaOr3ur1+93Hv2H9arGNDoebf61Wg2snxRikUSW6J2GQsLVsyR5NpabCvTdh0eNU7vB5GN4fOaVUNe075wqCY3A/KCtI7o2qAM6zwpAqW6GDR2Py7f+/mBzyztbzYDgAA" ConnectionId="1d50c9e8-885e-457d-a0ec-abd8005b80be" DisplayName="Create Requirement" sap:VirtualizedContainerService.HintSize="354,376" sap2010:WorkflowViewState.IdRef="ConnectorActivity_4" UiPathActivityTypeId="36d37e23-fad6-35c4-9c4c-bd0e47aef365">
                                     <isactr:ConnectorActivity.FieldObjects>
                                       <isactr:FieldObject Name="Id" Type="FieldArgument">
                                         <isactr:FieldObject.Value>
@@ -361,7 +363,7 @@
                                     </isactr:ConnectorActivity.FieldObjects>
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
@@ -410,7 +412,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </Assign>
-                            <ueab:ExcelForEachRowX DisplayName="For Each Excel Row in 'Summary' Sheet - Test Case Loop" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="834,2599" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_2" Range="[TestManagerTemplate.Sheet(&quot;Summary&quot;).Range(TCRange)]" SaveAfterEachRow="False">
+                            <ueab:ExcelForEachRowX DisplayName="For Each Excel Row in 'Summary' Sheet - Test Case Loop" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="834,3501" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_2" Range="[TestManagerTemplate.Sheet(&quot;Summary&quot;).Range(TCRange)]" SaveAfterEachRow="False">
                               <ueab:ExcelForEachRowX.Body>
                                 <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
                                   <ActivityAction.Argument1>
@@ -419,13 +421,13 @@
                                   <ActivityAction.Argument2>
                                     <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                                   </ActivityAction.Argument2>
-                                  <Sequence DisplayName="Upload Test Cases" sap:VirtualizedContainerService.HintSize="800,2386" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                  <Sequence DisplayName="Upload Test Cases" sap:VirtualizedContainerService.HintSize="800,3288" sap2010:WorkflowViewState.IdRef="Sequence_16">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <If Condition="[CurrentRow.ByField(&quot;Type&quot;) = string.Format(&quot;Test Case&quot;)]" DisplayName="Check if Row is a Test Case" sap:VirtualizedContainerService.HintSize="738,2301" sap2010:WorkflowViewState.IdRef="If_3">
+                                    <If Condition="[CurrentRow.ByField(&quot;Type&quot;) = string.Format(&quot;Test Case&quot;)]" DisplayName="Check if Row is a Test Case" sap:VirtualizedContainerService.HintSize="738,3203" sap2010:WorkflowViewState.IdRef="If_3">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -433,7 +435,7 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                       <If.Then>
-                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="704,2090" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="704,2992" sap2010:WorkflowViewState.IdRef="Sequence_5">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="x:String" Name="TestCase" />
                                             <Variable x:TypeArguments="x:String" Name="ManualSteps_SheetName" />
@@ -488,7 +490,7 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </ui:MultipleAssign>
-                                          <If Condition="[CurrentRow.ByField(&quot;FLAG&quot;) &lt;&gt; string.Format(&quot;X&quot;)]" DisplayName="Check if Test Case Entry is Required" sap:VirtualizedContainerService.HintSize="642,1940" sap2010:WorkflowViewState.IdRef="If_4">
+                                          <If Condition="[CurrentRow.ByField(&quot;FLAG&quot;) &lt;&gt; string.Format(&quot;X&quot;)]" DisplayName="Check if Test Case Entry is Required" sap:VirtualizedContainerService.HintSize="642,2842" sap2010:WorkflowViewState.IdRef="If_4">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -496,14 +498,14 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                             <If.Then>
-                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="608,1729" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="608,2631" sap2010:WorkflowViewState.IdRef="Sequence_13">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <If Condition="[CurrentRow.ByField(&quot;ID&quot;) = string.Format(&quot;NEW&quot;)]" DisplayName="Check if Test Case Entry is Requred" sap:VirtualizedContainerService.HintSize="546,895" sap2010:WorkflowViewState.IdRef="If_6">
+                                                <If Condition="[CurrentRow.ByField(&quot;ID&quot;) = string.Format(&quot;NEW&quot;)]" DisplayName="Check if Test Case Entry is Requred" sap:VirtualizedContainerService.HintSize="546,1435" sap2010:WorkflowViewState.IdRef="If_6">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -511,7 +513,7 @@
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                   <If.Then>
-                                                    <Sequence DisplayName="Create NEW Test Case" sap:VirtualizedContainerService.HintSize="416,667" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                                    <Sequence DisplayName="Create NEW Test Case" sap:VirtualizedContainerService.HintSize="416,1207" sap2010:WorkflowViewState.IdRef="Sequence_8">
                                                       <Sequence.Variables>
                                                         <Variable x:TypeArguments="x:String" Name="TestCase_ID_obj" />
                                                       </Sequence.Variables>
@@ -534,7 +536,7 @@
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
                                                       </Assign>
-                                                      <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACs2XW2/aShDH3yv1O6z80lYiDpBEyjlSHorTtPQGCjTnoaqqxR5gi9l190KFonz3M7u2wSbOhvROpBjtzOzu/Dw7++f68SNCggsGaaIiwTVlHGTwL7m242gZAZXxnE5SyH3Q9PFTqzD2eWb0djwfJWWsc3lPl4C2oJ8ErcrwOVNZSteldSjFF4g16Z/XvUDFkmWaCV73Ik+F0bg2mUqxJE9egiZb4xNCY81WTK+f1WYbrzO3mNKS8VnNNBJSD2TiMu9UDZfw1TAJCY5raaBqcnm/FTHdbI/qeW3WAY8oX1FVBJeWm5YPVJbn8VN4pUAVEOAaJNFz2DCiM3zN38OmWwMg5JJqG2UMq2/3ElQmuIIGbA8h2hPJ+seJcvv0wHRPD8YxKE0iS/KW557Yjv5aNiuQyk7owXPV5FIn1OSyJ5rjnWnZzM5Y2SoOD4Vi5VIjiAVPqFwHW5eb3wAqqWTsgVUFs1dJ3RWwJ76TB+IbSrb0wPPU5i/iGpd3jr/hba6me1reGLvcnb4epucwpSbVVzQ1zqVdfA4a/pWfoJn976jGqZCAy13CFCTw2NveLnJfIpudb/PzBzwA4h8ExKwyGVJJl8rHxgkYkjX43cZyp6+XyE9OOv+yEWADp4L2U2Cvmf78PGNXXdt8Yuw9XjKbDuXl0sjhA7NKKOyj7JhJl+II5IrFED7PdRkDFY7+e8F1/jU6P223T3qn7d6LnQ1+jiRQDWHP8CTF8CZjizTFh2+u1h8mRxPe6bzspKfZt14nOr6YH3VbpLiszjph2/5hPNaskXDGwWhJ0xYZmknK4jewHosF8DNu0nRH3Xw1uAvMdUpT5e+S+Rvyvduqqa/wLbk5Hlbt3t65vWzu752FrNY2xFImLCFPqSKU5NW9t6L2MPIKoNwUGSyc/XTQ/YB3D4995Dzx/CtNscO5TgEok1Xlp0+panARVyvlGvYy4iijhcQScXeYUVosDwybUL44sOyWlNMZLFF5z81kE1eU/7rEVma5Oc0Tq87L19Z8VoNXWmfvQM+FpWPvdh1UEopoPAfkIxYmc33YJVQz9qT4pvC+1YB9bGsc0niBe64lfRy2Dyagadhtd4/bR92T8J98H1sENf/uhtIeuQSDDPL24Fi4w1xYdnIcjMaFwf3EwqHDVffwup/cHFrY1TnfUj4zmIZ1gkJRBa+o6uH0C6zRaI4ODoory8ePbv4Hb2fuUQEPAAA=" ConnectionId="1d50c9e8-885e-457d-a0ec-abd8005b80be" DisplayName="Create Test Case" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="ConnectorActivity_7" UiPathActivityTypeId="e30ceac8-5706-33cc-bc45-fd1f2ba94f7d">
+                                                      <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACs2XbW/bNhDH3xfodyD0pi3gKLaSANmAvKiVpnXbzUbsZi+GoaCls81ZJlU+uDCCfPcdKcmWHIVxtj7MASKDd0fyfjoe/759/oyQ4IpBlqpYcE0ZBxn8Sm7tOFrGQGWyoNMMCh80/flXpzQOeG70brwYJVWsc/mdrgBtwSANOrXhS6byjG4q60iKvyHRZHDZ9AKVSJZrJnjTi7wURuPaZCbFirx4C5rsjC8ITTRbM7151ZhtssndYkpLxucN01hIPZSpy7xXN1zDF8MkpDiupYG6yeX9USR0uz2qF41ZhzymfE1VGVxZ7jo+UHmRxzfhlQFVQIBrkEQvYMuIzvE1/xs2UQOAkCuqbZQxrLnda1C54ApasD2FaF+km/9OlNunB6Z7ejBOQGkSW5L3PA/EdvK/ZbMGqeyEHjw3bS5NQm0uB6I53ZuWze2Mta3i8EgoVi01hkTwlMpNsHO5+wGg0lrGHlh1MAeV1EMBB+I7eyK+kWQrDzxPbX4nrkl15/gb3vZqeqTlTbDLPejrYXoJM2oyfUMz41y65eeo5V/1CdrZ/4hqnAkJuNw1zEACT7zt7arwJbLd+T4/f8ATIP5EQMwqkxGVdKV8bJyAIXmL330sD/p6iXzjpIsvWwE2dCroMAX2nunPr3N2E9nmk2Dv8ZLZdigvl1YOn5hVQuEAZcdcuhTHINcsgfB1ocsYqHD8xxuui6/x5Xm3e9Y/7/bf7G3wcyyBagj7hqcZhrcZO6QtPvxws/k0PZnyXu9tLzvPv/Z78enV4iTqkPKyuuiFXfuH8VizRsIFB6MlzTpkZKYZSz7AZiKWwC+4ybI9dfPF4C4w1xnNlL9LFm/I927rpoHCt+TmeFq1e3vn7rJ5vHeWslrbEEuZsJS8pIpQUlT3wYraw8grgApTbLBwDtNBjwPePzz2UfDE8680xQ7nOgWgTFa1nz6VqsFFXK1Ua9jLiKOMFhJLxN1hRmmxOjJsSvnyyLJbUU7nsELlvTDTbVxZ/psKW5Xl9jRPrTqvXlv7WQ3eaZ3/BnohLB17t+ugllBMkwUgH7E0uevDLqGGsS/FV4X3rQbsYzvjiCZL3HMj6dOwezQFTcOoG512T6Kz8JdiHzsEDf8oqigdkEswzKFoD46FO8ylZS/H4XhSGtxPLBw6XkfHt4P07tjCrs/5kfK5wTSsE5SKKnhHVR+nX2KNxgt0cFBcWT5/dvcPtdJnRAEPAAA=" ConnectionId="1d50c9e8-885e-457d-a0ec-abd8005b80be" DisplayName="Create Test Case" sap:VirtualizedContainerService.HintSize="354,376" sap2010:WorkflowViewState.IdRef="ConnectorActivity_7" UiPathActivityTypeId="e30ceac8-5706-33cc-bc45-fd1f2ba94f7d">
                                                         <isactr:ConnectorActivity.FieldObjects>
                                                           <isactr:FieldObject Name="Id" Type="FieldArgument">
                                                             <isactr:FieldObject.Value>
@@ -591,12 +593,12 @@
                                                         </isactr:ConnectorActivity.FieldObjects>
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
                                                       </isactr:ConnectorActivity>
-                                                      <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACsWUTW/bMAyG7wP2Hwwfh3y63aG5JS6KBeuWYAl6KXJgbDZWk0ieRGUwgvz3Uf6KXWxBl8tuMl9SJB+KPn784Hn+g8BdbEIlCYRE7Y+8o7OzskDQUQLrHRY+LD2vOqU4lamls72welVs7vId9sian2r1ihFNY7/TUO+FSXeQVU7zwsmb3re90ERapCSUdF7LBD0Re+rFIz6VMa2AZZbm9xnSQm5a0kJpmuk473HYFH7gTys0xmwnbbEp5R0+qgiqCuZASevWmQxBHsCUwZVy6lxCIi6yKOvZo/w3Ho24a5gE/5cJoaEQDE5j8/xpdYnPkj0958p0zCU8Y+mNtYasAvT3wHciunmTTGxcnuPpWnITFWfvIlcc6u2bWWqt38rZiyp4Mw2BjHAOmnkRatPY6Sf+LHMPe4PeoEru8w9A8i4p/RUzp0bWkNp3rViD3HbdbPYgYZM/rsSu67hxROIgKKsAhlYDcfN1pWu3otXkDsFopM+v1IxGYBxEd3/Ec6mH4n8hSr8hJcpx9OfKkN/oMYQoQSaptjZ9gp3lwHoMpTjR6pdBPSXcN8U5RFtuo8XhtjforpGgFwyC28FN8Ll3V9RxptLyH95V4K5rz5+lyJTK+0KNTKxU3rQ9WyxLId8xNvUPQf9Y/1FP/Wa6/lGw5c8pH0FuLDfu7kBZZQMz4exbfvJhwg45xhfYGX54p9/48pQAHwYAAA==" ConnectionId="1d50c9e8-885e-457d-a0ec-abd8005b80be" DisplayName="Assign Test Cases To Requirement" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="ConnectorActivity_9" UiPathActivityTypeId="406b5a57-876b-3b58-93e7-70c81c732a5d">
+                                                      <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACsWUTY/aQAyG75X6H6IcKwhsdntYbpBVVdRtQQXtZcXBJF4yBWbSGQ9VhPjv9eSLZNWiLZfeJn7tsf14nOP7d57nfxK4S0ykJIGQqP2Rd3R2VhYIOk5hvcPSh6XnVa8SpzKzdLaXVq+OLVy+wR5Z8zOtfmBM08TvtdQHYbId5LXTvHTypg9dLzSxFhkJJZ3XMkVPJJ568YhPVUwnYJlnxX2GtJCbjrRQmmY6KXq8aQvf8acVGhO2k7bYlooOH1UMdQVzoLRz60xGIA9gquBaOfUuIREXWVT17FH+G49W3DVMwv/LhNBQBAaniXn+sLrEZ8mennNlOuYSnrH0xlpDXgP6e+AbEd2+SiY2Ls/xdC25iUryN5ErD832zSx11m/l7GUVvJmGQMY4B828CLVp7fQTf1a5b4JhMKyT+/wDkLxLSn/B3KmxNaT2fSvWILd9N5s9SNgUjyu16yZuHJM4CMprgJHVQNx8U+narWg9uUM4GunzKzWjERgH0d0f81yaofifibKvSKlyHP25MuS3eowgTpFJqq3NnmBnObAZQyVOtPplUE8J921xDvGW2+hwuAuG/TUSBOEwvBvehh+D+7KOM5WOfxjW4K5rz59lyJSq+yKNTKxSXrU9WywrodgxNg0O4eDY/FFPg3a6wVGw5c8pH0FuLDfu7kBZZwMz4exbfvJRyg4FxhfYGX54p99Pi/3XHwYAAA==" ConnectionId="1d50c9e8-885e-457d-a0ec-abd8005b80be" DisplayName="Assign Test Cases To Requirement" sap:VirtualizedContainerService.HintSize="354,294" sap2010:WorkflowViewState.IdRef="ConnectorActivity_9" UiPathActivityTypeId="406b5a57-876b-3b58-93e7-70c81c732a5d">
                                                         <isactr:ConnectorActivity.FieldObjects>
                                                           <isactr:FieldObject Name="projectId" Type="FieldArgument">
                                                             <isactr:FieldObject.Value>
@@ -616,7 +618,7 @@
                                                         </isactr:ConnectorActivity.FieldObjects>
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
@@ -680,7 +682,7 @@
                                                     </Sequence>
                                                   </If.Else>
                                                 </If>
-                                                <If Condition="[CurrentRow.ByField(&quot;Manual&quot;) = string.Format(&quot;Add to TM&quot;)]" DisplayName="Check for Manual Test Case" sap:VirtualizedContainerService.HintSize="546,749" sap2010:WorkflowViewState.IdRef="If_5">
+                                                <If Condition="[CurrentRow.ByField(&quot;Manual&quot;) = string.Format(&quot;Add to TM&quot;)]" DisplayName="Check for Manual Test Case" sap:VirtualizedContainerService.HintSize="546,1111" sap2010:WorkflowViewState.IdRef="If_5">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -688,14 +690,14 @@
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                   <If.Then>
-                                                    <Sequence sap2010:Annotation.AnnotationText="Note: Workflow has been configured to support 100 Excel rows. If more manua steps are needed, then the value for 'In Range' below can be updated." DisplayName="Add Manual Steps" sap:VirtualizedContainerService.HintSize="512,538" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                                    <Sequence sap2010:Annotation.AnnotationText="Note: Workflow has been configured to support 100 Excel rows. If more manua steps are needed, then the value for 'In Range' below can be updated." DisplayName="Add Manual Steps" sap:VirtualizedContainerService.HintSize="512,900" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
-                                                      <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="450,363" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[TestManagerTemplate.Sheet(ManualSteps_SheetName).Range(&quot;A6:D100&quot;)]" SaveAfterEachRow="False">
+                                                      <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="450,725" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[TestManagerTemplate.Sheet(ManualSteps_SheetName).Range(&quot;A6:D100&quot;)]" SaveAfterEachRow="False">
                                                         <ueab:ExcelForEachRowX.Body>
                                                           <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
                                                             <ActivityAction.Argument1>
@@ -704,13 +706,13 @@
                                                             <ActivityAction.Argument2>
                                                               <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                                                             </ActivityAction.Argument2>
-                                                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,133" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,495" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                                               <sap:WorkflowViewStateService.ViewState>
                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                 </scg:Dictionary>
                                                               </sap:WorkflowViewStateService.ViewState>
-                                                              <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACtWX227aQBCG7yvlHSxfE4c4JE0r5SKYHGjSgGpKVVVVtNgT2GJ2nT2QIsS7d3wCA8Y4qlop4gK08+9hvpndGeYH7wzDvKYQ+NLhTBHKQJgfjXk0jhYXiPBGZBBAokHTj5+11NhmoVar8WTUyObGkgcyAbSZoeC/wFNt36zlrC0qw4DM9ohAeoKGinIWiXojMIqFvVkYLyOVoGy4ZnK5UB3hx64d5w1f4FlTAT6OK6Ehb4odu+ceyXbuEjVaW7XDHMKmRKaTM8uiVkZCgVQOkVCOoocqw0OZ0W7to7FTWxGIveY1FxOiolla061A0GG063yxjlCGnEkoQPgauk3uz/6erp/DU4I3T3EP3V3SinBP3hpB+B3i1QIfD6UDVQbxKlUaokC6DbJMXhFmoxjmahCHu1zS5Y0VdELEzFwJqnL/R3C9gIYDToTfIoqUsXUyoeFvKbfRlqgrkj1962R55MgDL2Ma+2owvo9moS7jSJmCISLbBfKs+DHFaWcN85WQXfA48/835uTHssh3tKpc5T9R9XgZ0r4dlSSpIJR7a5y7rVqPSGEUvtKoGFvtKBgidtEFMaUeWJeeolMkCNJyv10xlfx0Wuf1+mnzvN682jjgoyOAKLCamvkBTi8y1oyi+ZZyZ3c3jWv+/eX2uNV5/+z1nvv2jV0z+iAkHuni2KpHH5yO750WcMFAK0GCmtHVg4B6dzDr8TGwC6aDwNx89vEQ6OoTCWR5YJMAlYU2b2pLDFK8xquu12YrsCOSe7qVtm/wJ8OLofrGclbVB6uESmkJTUyOxkypVkn3I928LdFXQhC7YqkI86BLBOJRmAu5fjpNjWiTODuyPUxsvhmWRy4wKeJKoaXik0NNB4SND6OmcUIYGcIEmBrpwXJemu+zDFvm5fL6DqJOOQtU8eU0b5UKP4Ma8YhO9AQpM+eQQ7wRIB8+1mGfBBiCVQeTGpuCv0gQbQWTvLFLvDGeec3phlU/HIAill23G/UT+9T6kJxjhWBNb9sZpQq+mJ0QkvcgZhEnWmrZ8LHj9lJD3Nbj0NHUPpov/1ksjiLm+aXvCRtq9CZuktJe0Lwlsom7jDFVnREKYjZxdh68W/wBQgl6nl0NAAA=" ConnectionId="1d50c9e8-885e-457d-a0ec-abd8005b80be" DisplayName="Create Test Step" sap:VirtualizedContainerService.HintSize="354,48" sap2010:WorkflowViewState.IdRef="ConnectorActivity_8" UiPathActivityTypeId="f9f6cb84-b9e9-3d2d-9eb2-33aa76bcf3ce">
+                                                              <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACtWX227aQBCG7yvlHSxfE4c4JE0r5SKYHGjSgGpKVVVVtNgT2GJ2nT2QIsS7d3wCA8Y4qlop4gK08+9hvpndGeYH7wzDvKYQ+NLhTBHKQJgfjXk0jhYXiPBGZBBAokHTj5+11NhmoVar8WTUyObGkgcyAbSZoeC/wFNt36zlrC0qw4DM9ohAeoKGinIWiXojMIqFvVkYLyOVoGy4ZnK5UB3hx64d5w1f4FlTAT6OK6Ehb4odu+ceyXbuEjVaW7XDHMKmRKaTM8uiVkZCgVQOkVCOoocqw0OZ0W7to7FTWxGIveY1FxOiolla061A0GG063yxjlCGnEkoQPgauk3uz/6erp/DU4I3T3EP3V3SinBP3hpB+B3i1QIfD6UDVQbxKlUaokC6DbJMXhFmoxjmahCHu1zS5Y0VdELEzFwJqnL/R3C9gIYDToTfIoqUsXUyoeFvKbfRlqgrkj1962R55MgDL2Ma+2owvo9moS7jSJmCISLbBfKs+DHFaWcN85WQXfA48/835uTHssh3tKpc5T9R9XgZ0r4dlSSpIJR7a5y7rVqPSGEUvtKoGFvtKBgidtEFMaUeWJeeolMkCNJyv10xlfx0Wuf1+mnzvN682jjgoyOAKLCamvkBTi8y1oyi+ZZyZ3c3jWv+/eX2uNV5/+z1nvv2jV0z+iAkHuni2KpHH5yO750WcMFAK0GCmtHVg4B6dzDr8TGwC6aDwNx89vEQ6OoTCWR5YJMAlYU2b2pLDFK8xquu12YrsCOSe7qVtm/wJ8OLofrGclbVB6uESmkJTUyOxkypVkn3I928LdFXQhC7YqkI86BLBOJRmAu5fjpNjWiTODuyPUxsvhmWRy4wKeJKoaXik0NNB4SND6OmcUIYGcIEmBrpwXJemu+zDFvm5fL6DqJOOQtU8eU0b5UKP4Ma8YhO9AQpM+eQQ7wRIB8+1mGfBBiCVQeTGpuCv0gQbQWTvLFLvDGeec3phlU/HIAill23G/UT+9T6kJxjhWBNb9sZpQq+mJ0QkvcgZhEnWmrZ8LHj9lJD3Nbj0NHUPpov/1ksjiLm+aXvCRtq9CZuktJe0Lwlsom7jDFVnREKYjZxdh68W/wBQgl6nl0NAAA=" ConnectionId="1d50c9e8-885e-457d-a0ec-abd8005b80be" DisplayName="Create Test Step" sap:VirtualizedContainerService.HintSize="354,410" sap2010:WorkflowViewState.IdRef="ConnectorActivity_8" UiPathActivityTypeId="f9f6cb84-b9e9-3d2d-9eb2-33aa76bcf3ce">
                                                                 <isactr:ConnectorActivity.FieldObjects>
                                                                   <isactr:FieldObject Name="projectId" Type="FieldArgument">
                                                                     <isactr:FieldObject.Value>
@@ -755,7 +757,7 @@
                                                                 </isactr:ConnectorActivity.FieldObjects>
                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                   </scg:Dictionary>
                                                                 </sap:WorkflowViewStateService.ViewState>
