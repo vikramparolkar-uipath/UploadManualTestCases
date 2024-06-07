@@ -4,11 +4,11 @@
   "description": "Attended Process to take an Excel file and upload it to UiPath Test Manager",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.22.3]",
-    "UiPath.IntegrationService.Activities": "[1.4.0-beta.20240401.37]",
-    "UiPath.System.Activities": "[23.10.5]",
-    "UiPath.UIAutomation.Activities": "[23.10.11]",
-    "UiPath.WebAPI.Activities": "[1.18.0]"
+    "UiPath.Excel.Activities": "[2.22.4]",
+    "UiPath.IntegrationService.Activities": "[1.5.0]",
+    "UiPath.System.Activities": "[24.3.1]",
+    "UiPath.UIAutomation.Activities": "[23.10.12]",
+    "UiPath.WebAPI.Activities": "[1.20.1]"
   },
   "webServices": [],
   "entitiesStores": [],
